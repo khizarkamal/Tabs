@@ -1,0 +1,65 @@
+.heading-exp {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.job-container {  
+    max-width: 90vw;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    margin: 0 auto;
+
+}
+
+.duty-container {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+
+.jobs-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.job-button {
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    color: hsl(209, 61%, 16%);
+    padding: 0 1.5rem;
+}
+.job-button:hover {
+    border-left: 2px solid hsl(209, 61%, 16%);
+    cursor: pointer;
+}
+
+.duty-container p {
+    margin: 0;
+    color: hsl(209, 61%, 16%);;
+}
+
+.duty-container svg {
+    color: aquamarine
+}
+
+.experience-details article h4 {
+    background: #80808069;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 0.4rem;
+}
+
+@media screen and (max-width:768px) {
+    .job-container {  
+        grid-template-columns: 1fr;
+        row-gap: 1rem;
+        
+    }
+}
